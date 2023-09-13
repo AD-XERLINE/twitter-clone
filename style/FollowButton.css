@@ -1,0 +1,17 @@
+#FLBP1{
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    font-size: small;
+    width: 80px;    
+}
+
+#FLBD1{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+
+    height: 35px;
+}

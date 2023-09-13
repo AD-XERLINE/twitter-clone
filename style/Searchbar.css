@@ -1,0 +1,43 @@
+#SCHB1{
+    padding-left: 25px;
+    padding-right: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: none;
+    width: 24rem;
+}
+@media (min-width: 1024px) {
+    #SCHB1{
+        display: block;
+        
+    }
+}
+
+@media (max-width: 1500px) {
+    #SCHB1{
+        padding-right: 10%;
+    }
+}
+
+#SCHB2{
+    background-color: #EFF3F4;
+    padding: 1rem;
+    border-radius: 1rem;
+    
+    border-radius: 9999px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    height: 40px;
+    
+}
+#SCHB3{
+    padding-left: 6px;
+    padding-right: 15px;
+}
+#SCHBP1{
+    padding-left: 5px;
+    cursor: text;
+}

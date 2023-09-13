@@ -1,0 +1,34 @@
+#D1 {
+    grid-column: span 1;
+    height: 100%;
+    padding-right: 1rem;
+    
+}
+
+@media (min-width: 768px) {
+    #D1 {
+        padding-right: 1.5rem;
+    }
+
+}
+
+#D2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* position: -webkit-sticky; */
+    position: sticky;
+    top: 0;
+}
+
+#D3 {
+    margin-top: 0.2rem;
+
+}
+
+@media (min-width: 1024px) {
+    #D3 {
+        width: 240px;
+        /* background-color: aqua; */
+    }
+}
