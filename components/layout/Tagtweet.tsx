@@ -1,33 +1,60 @@
 import Tagtweetitem from "./Tagtweetitem";
-
+import '/style/Tagtweet.css'
 
 const Tagtweet = () => {
     const TweetInfo = [
         {
-            PURL: "https://i.pinimg.com/236x/e7/e8/69/e7e869775a39e0b4b118f3c85796843f.jpg",
-            Username: "Tossukud",
-            UserTag: "@BoyPakarung",
+            TypeTag: "เทคโนโลยี",
+            MainTag: "#คนจนมีสิทธิ์ไหมคะ",
+            ReTweet: "22K posts",
         },
-
+        {
+            TypeTag: "ได้รับความนิยมใน ไทย",
+            MainTag: "#ประชุมสภา",
+            ReTweet: "188K posts",
+        },
+        {
+            TypeTag: "เทคโนโลยี",
+            MainTag: "#Iphone15",
+            ReTweet: "395K posts",
+        },
+        {
+            TypeTag: "ดนตรี",
+            MainTag: "#PostMaloneBKK",
+            ReTweet: "1111 posts",
+        },
+        {
+            TypeTag: "ได้รับความนิยมใน ไทย",
+            MainTag: "#คุณมีไก่ผมก็มีไก่",
+            ReTweet: "11K posts",
+        },
+        {
+            TypeTag: "ได้รับความนิยมใน ไทย",
+            MainTag: "#อิงล็อต",
+            ReTweet: "235K posts",
+        },
+        {
+            TypeTag: "ได้รับความนิยมใน ไทย",
+            MainTag: "#Nnatawin",
+            ReTweet: "235K posts",
+        },
     ];
     return (
-        <div id='FLB1'>
-            <div id='FLB2'>
-                <h2 id='FLH1'>
-                    People you may know
+        <div id='TTD1'>
+            <div id='TTD2'>
+                <h2 id='TTH1'>
+                    Popularity for you
                 </h2>
             </div>
-            {/* <div id='FLB3'> */}
                 {TweetInfo.map((item) => (
                     <Tagtweetitem
-                        PURL={item.PURL}
-                        Username={item.Username}
-                        UserTag={item.UserTag}
+                        TypeTag={item.TypeTag}
+                        MainTag={item.MainTag}
+                        ReTweet={item.ReTweet}
                     />
                 ))}
                 
-            {/* </div> */}
-            <div id='FLB4'>
+            <div id='TTD3'>
                 <p>
                     Show more
                 </p>
@@ -36,5 +63,3 @@ const Tagtweet = () => {
     );
 }
 export default Tagtweet;
-
-// แก้ map ส่ง data tweet

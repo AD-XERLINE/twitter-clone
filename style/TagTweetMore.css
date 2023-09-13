@@ -1,0 +1,21 @@
+#TTMD2{
+    color: #5c6974;
+    font-weight: bold;
+    text-align: center;
+    font-size: small;
+    width: 30px;   
+    transition: all 0.3s ease;
+    border-radius: 50%;
+}
+
+#TTMD1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 8px;
+}
+#TTMD1:hover{
+    background-color: #DAE8F0;
+    color: #58B3F0;
+}

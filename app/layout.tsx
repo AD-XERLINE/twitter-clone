@@ -24,13 +24,19 @@ export default function RootLayout({
           <div id='SD'>
             <Sidebar />
           </div>
-          <div className='col-span-2 lg:col-span-2 border-x-[1px] border-neutral-120'>
+          <div className='col-span-3 lg:col-span-2 border-x-[1px] border-neutral-120'>
             {children}
           </div>
-          <div>
-            <Searchbar />
-            <Tagtweet />
-            <Followbar />
+          <div >
+            <div>
+              <Searchbar />
+            </div>
+            <div>
+              <Tagtweet />
+            </div>
+            <div>
+              <Followbar />
+            </div>
           </div>
         </div>
       </div>

@@ -1,29 +1,32 @@
 import TagTweetMore from "./TagTweetMore";
+import '/style/Tagtweetitem.css'
 
 interface TagTweetProps {
-    PURL: string;
-    Username: string;
-    UserTag: string;
+    TypeTag: string,
+    MainTag: string,
+    ReTweet: string,
 }
 
 const Tagtweetitem: React.FC<TagTweetProps> = ({
-    PURL,
-    Username,
-    UserTag
+    TypeTag,
+    MainTag,
+    ReTweet
 }) => {
     return (
-        <div id='FLBI1'>
-            <img src={PURL}></img>
-            <div id='FLBID1'>
-                <div id='FLBID2'>
-                    <h3>
-                        {Username}
+        <div id='TTID1'>
+            <div id='TTID2'>
+                <div id='TTID3'>
+                    <p id="TTP1">
+                        {TypeTag}
+                    </p>
+                    <h3 id="TTIH1">
+                        {MainTag}
                     </h3>
-                    <p>
-                        {UserTag}
+                    <p id="TTP1">
+                        {ReTweet}
                     </p>
                 </div>
-                <div id='FLBID3'>
+                <div id='TTID4'>
                     <TagTweetMore />
                 </div>
             </div>

@@ -1,10 +1,10 @@
+import '/style/TagTweetMore.css'
+import {BsThreeDots} from 'react-icons/bs'
 
 const TagTweetMore =() =>{
     return(
-        <div id='FLBD1'>
-            <p id="FLBP1">
-                ...
-            </p>
+        <div id='TTMD1'>
+            <BsThreeDots />
         </div>
     );
 }

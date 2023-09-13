@@ -1,0 +1,42 @@
+#TTIH1{
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+#TTP1{
+    color: #5c6974;
+    font-size: 0.82rem;
+    font-weight: 400;
+}
+
+#TTID1{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: #F7F9F9;
+    /* border-radius: 1.5rem; */
+    border-radius: 0px 0px 0px 0px;
+    transition: all 0.3s ease;
+
+}
+#TTID1:hover{
+    cursor: pointer;
+    background-color: #EFF1F1;
+}
+
+#TTID3{
+    margin-left: 15px;
+}
+#TTID2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 60px;
+}
+#TTID4{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
