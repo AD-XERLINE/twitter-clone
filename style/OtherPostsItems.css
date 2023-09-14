@@ -1,0 +1,16 @@
+#OTPID1{
+    color: #4299E1;
+    font-size: 16px;
+    padding: 11px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+
+}
+#OTPID1:hover{
+    cursor: pointer;
+    background-color: #e1f1ff;
+}
+
+#OTPID2{
+
+}

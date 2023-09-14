@@ -1,0 +1,69 @@
+#PG1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 17px;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+#PIMG1{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+#Img1{
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+
+}
+#PGIP1{
+    margin-top: 18px;
+    margin-bottom: 13px;
+
+    font-size: 20px;
+}
+#PGD1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 15px;
+    border-bottom-width: 1px;
+
+}
+#PGD2{
+    /* width: 100%; */
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#TopPG{
+    border-bottom-width: 1px;
+}
+
+#PGD3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+#PGF{
+    width: 100%;
+}
+#PGFButton{
+    color: white;
+    background-color: #4299E1;
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 35px;
+    border-radius: 60px;
+    font-size: 13px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+#PGFButton:hover{
+    background-color: #3b87c6;
+}

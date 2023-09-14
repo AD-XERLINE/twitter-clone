@@ -1,0 +1,14 @@
+#OTF1{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 14px;
+    margin-top: 2px;
+    margin-bottom: 12px;
+    color: #378ed4;
+    font-weight: 600;
+}
+#OTFP1{
+    margin-left: 6px;
+}
