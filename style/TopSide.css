@@ -3,8 +3,11 @@
     border-color: rgb(229 229 229);
     padding: 1.25rem;
     backdrop-filter: blur(10px);
-    /* position: sticky;
-    top: 0; */
+
+    position: sticky;
+    top: 0;
+
+
 }
 
 #TSD2{
@@ -12,8 +15,8 @@
     flex-direction: row;
     align-items: center;
     margin-left: 0.5rem;
-    /* background-color: aqua; */
 
+    
 }
 #TSIC1{
     cursor: pointer;

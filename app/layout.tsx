@@ -5,6 +5,7 @@ import Sidebar from '@/components/layout/Sidebar'
 import Searchbar from '@/components/layout/Searchbar'
 import Followbar from '@/components/layout/Followbar'
 import Tagtweet from '@/components/layout/Tagtweet'
+import TopSide from '@/components/TopSIde'
 
 export const metadata: Metadata = {
   title: 'Twitter.V2',
@@ -27,7 +28,7 @@ export default function RootLayout({
           <div className='col-span-3 lg:col-span-2 border-x-[1px] border-neutral-120'>
             {children}
           </div>
-          <div >
+          <div id='RightSideBar'>
             <div>
               <Searchbar />
             </div>
