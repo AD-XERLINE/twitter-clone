@@ -1,4 +1,4 @@
-import '/style/TagTweetMore.css'
+import '/style/TagTwitter/TagTweetMore.css'
 import {BsThreeDots} from 'react-icons/bs'
 
 const TagTweetMore =() =>{

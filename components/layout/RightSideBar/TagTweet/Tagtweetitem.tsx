@@ -1,5 +1,5 @@
 import TagTweetMore from "./TagTweetMore";
-import '/style/Tagtweetitem.css'
+import '/style/TagTwitter/Tagtweetitem.css'
 
 interface TagTweetProps {
     TypeTag: string,

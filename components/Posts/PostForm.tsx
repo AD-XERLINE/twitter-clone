@@ -1,4 +1,4 @@
-import '@/style/PostForm.css'
+import '@/style/Posts/PostForm.css'
 import { BsChevronDown } from "react-icons/bs";
 
 export default function PostForm() {

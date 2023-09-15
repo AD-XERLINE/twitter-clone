@@ -1,7 +1,7 @@
 import { BsCalendar2Date, BsCardImage, BsEmojiSmile, BsFiletypeGif, BsListTask } from "react-icons/bs";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import OtherPostsItems from "./OtherPostsItems";
-import '@/style/OtherPosts.css'
+import '@/style/Posts/OtherPosts.css'
 
 const OtherPosts = () => {
     const items = [

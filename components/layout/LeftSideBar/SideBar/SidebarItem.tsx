@@ -1,5 +1,5 @@
 import { IconType } from "react-icons";
-import '/style/Sidebaritem.css';
+import '/style/LeftSideBar/Sidebaritem.css';
 
 interface SidebarItemProps {
     label: string;

@@ -1,4 +1,4 @@
-import '@/style/OtherPostsItems.css'
+import '@/style/Posts/OtherPostsItems.css'
 import { IconType, icons } from "react-icons";
 
 interface ItemsProp{

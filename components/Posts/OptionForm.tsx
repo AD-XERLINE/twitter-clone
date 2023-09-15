@@ -1,5 +1,5 @@
 
-import '@/style/OptionForm.css'
+import '@/style/Posts/OptionForm.css'
 import { BsGlobeAmericas } from "react-icons/bs";
 
 const OptionForm =() => {

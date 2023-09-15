@@ -1,4 +1,4 @@
-import '@/style/Feed.css'
+import '@/style/Feed/Feed.css'
 import IconFeed from './IconFeed';
 
 interface FeedItemProps {

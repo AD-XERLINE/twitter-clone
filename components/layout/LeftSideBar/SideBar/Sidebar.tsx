@@ -4,7 +4,7 @@ import {BiLogOut} from 'react-icons/bi'
 
 import Sidebarlogo from './Sidebarlogo';
 import SidebarItem from './SidebarItem';
-import '/style/Sidebar.css';
+import '/style/LeftSideBar/Sidebar.css';
 import SidebarPost from './SidebarPost';
 // import SidebarTweetButton from './SidebarTweetButton';
 

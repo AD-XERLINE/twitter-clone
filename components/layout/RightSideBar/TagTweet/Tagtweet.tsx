@@ -1,5 +1,5 @@
 import Tagtweetitem from "./Tagtweetitem";
-import '/style/Tagtweet.css'
+import '/style/TagTwitter/Tagtweet.css'
 
 const Tagtweet = () => {
     const TweetInfo = [

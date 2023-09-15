@@ -1,7 +1,7 @@
 'use client'
 
 import { useRouter } from "next/navigation";
-import '/style/SidebarPost.css';
+import '/style/LeftSideBar/SidebarPost.css';
 import { FaFeather } from "react-icons/fa";
 
 const SidebarPost = () => {
