@@ -6,38 +6,14 @@ generator client {
 }
 
 datasource db {
-  provider = "mongodb"
+  provider = "mongodb" //postgresql
   url      = env("DATABASE_URL")
 }
 
-model User {
-  id              String @id @default(auto()) @map("_id") @db.ObjectId
-  name            String?
-  username        String?   @unique
-  // bio             String? 
-  email           String?   @unique
-  // emailVerified   DateTime?
-  // image           String?
-  // coverImage      String?
-  profileImage    String?
-  hashedPassword  String?
-  createdAt       DateTime @default(now())
-  // updatedAt       DateTime @updatedAt
-  // followingIds    String[] @db.ObjectId
-  // hasNotification Boolean?
-
-  posts         Post[]
-}
-
 model Post {
-  id                 String @id @default(auto()) @map("_id") @db.ObjectId
-  body               String
-  createdAt          DateTime @default(now())
-  // updatedAt          DateTime @updatedAt
-  userId             String @db.ObjectId
-  likedIds           String[] @db.ObjectId
-  image              String?
-
-  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  id        String @id @default(auto()) @map("_id") @db.ObjectId
+  title     String
+  content   String
+  createdAt DateTime @default(now())
 
 }

@@ -1,5 +1,5 @@
 import FollowButton from './FollowButton';
-import '/style/Followbaritem.css'
+import '/style/FollowBar/Followbaritem.css'
 
 interface FollowbaritemProps {
     PURL: string;

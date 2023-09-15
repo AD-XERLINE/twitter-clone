@@ -1,5 +1,5 @@
 import Followbaritem from './Followbaritem';
-import '/style/Followbar.css';
+import '@/style/FollowBar/Followbar.css';
 
 const Followbar = () => {
     const DataPerson = [

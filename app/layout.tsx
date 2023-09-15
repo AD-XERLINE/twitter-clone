@@ -1,10 +1,10 @@
 import type { Metadata } from 'next'
 import '/style/layout.css'
 import './globals.css'
-import Sidebar from '@/components/layout/Sidebar'
-import Searchbar from '@/components/layout/Searchbar'
-import Followbar from '@/components/layout/Followbar'
-import Tagtweet from '@/components/layout/Tagtweet'
+import Sidebar from '@/components/layout/RightSideBar/SideBar/Sidebar'
+import Searchbar from '@/components/layout/RightSideBar/Searchbar'
+import Followbar from '@/components/layout/Follow/Followbar'
+import Tagtweet from '@/components/layout/RightSideBar/TagTweet/Tagtweet'
 import TopSide from '@/components/TopSIde'
 
 export const metadata: Metadata = {

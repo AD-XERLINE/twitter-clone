@@ -1,4 +1,4 @@
-import '/style/FollowButton.css'
+import '/style/FollowBar/FollowButton.css'
 
 const FollowButton =() =>{
     return(
