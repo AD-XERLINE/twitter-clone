@@ -91,6 +91,7 @@ const ContentForm = () => {
       <div id="MainFeed">
             {items.map((item) => (
                 <FeedItem
+                    key={item.Id}
                     imgU={item.imgU}
                     Name={item.Name}
                     Id={item.Id}

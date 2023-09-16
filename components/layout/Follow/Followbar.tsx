@@ -29,6 +29,7 @@ const Followbar = () => {
             {/* <div id='FLB3'> */}
                 {DataPerson.map((item) => (
                     <Followbaritem
+                        key={item.Username}
                         PURL={item.PURL}
                         Username={item.Username}
                         UserTag={item.UserTag}

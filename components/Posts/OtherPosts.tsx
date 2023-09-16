@@ -29,6 +29,7 @@ const OtherPosts = () => {
             <div id="OTP1">
                 {items.map((item) => (
                     <OtherPostsItems
+                        key={item.Icon}
                         icon={item.Icon}
                     />
                 ))}

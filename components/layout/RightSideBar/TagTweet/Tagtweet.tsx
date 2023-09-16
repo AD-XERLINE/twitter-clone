@@ -48,6 +48,7 @@ const Tagtweet = () => {
             </div>
                 {TweetInfo.map((item) => (
                     <Tagtweetitem
+                        key={item.MainTag}
                         TypeTag={item.TypeTag}
                         MainTag={item.MainTag}
                         ReTweet={item.ReTweet}
