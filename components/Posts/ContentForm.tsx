@@ -39,19 +39,21 @@ const ContentForm = () => {
   ]);
 
   const addItem = () => {
-    console.log("GG");
     if (newItemLabel !== null && newItemLabel !== '') {
       const newItem = {
         imgU: "https://i.pinimg.com/564x/c2/79/4e/c2794e4501706193fddcbb53b719ff4b.jpg",
         Name: "Neeracha",
         Id: "@AD",
         Content: newItemLabel,
-        Pic: "",
       };
 
       setNewItemLabel('');
       
-      setItems(prevItems => [...prevItems, newItem]);
+      setItems(prevItems => { //[...prevItems, newItem]);
+        // add head
+        prevItems.unshift(newItem);
+        return [...prevItems];
+      });
     }
   };
 
